@@ -30,6 +30,6 @@ sb.append("Hello");
 sb.append(" World");
 System.out.println(sb.toString());  // "Hello World"
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-Character.isDigit(c) 	문자 c가 숫자인지 확인하는 메서드        	문자 c가 숫자인지 true/false로 반환. ('1', '2' 등이 숫자).
+Character.isDigit(c) 	  문자 c가 숫자인지 확인하는 메서드        	문자 c가 숫자인지 true/false로 반환. ('1', '2' 등이 숫자).
 boolean isDigit = Character.isDigit('1');  // true
 boolean isDigit = Character.isDigit('a');  // false
